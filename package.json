@@ -1,0 +1,24 @@
+{
+  "name": "sly",
+  "version": "1.0.0",
+  "description": "Sly is the CFI slackbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sly",
+    "cfi",
+    "slack",
+    "laval",
+    "university",
+    "bot"
+  ],
+  "author": "Alexandre Frigon",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^1.4.1",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6"
+  }
+}

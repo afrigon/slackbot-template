@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  sly:
+    image: sly
+    container_name: sly
+    restart: always
+    environment:
+      PORT: 3000
+      SLACK_BOT_TOKEN: $SLACK_BOT_TOKEN
+      SLACK_SIGNING_SECRET: $SLACK_SIGNING_SECRET
+    ports:
+      - 3000:3000
+
