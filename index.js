@@ -12,6 +12,6 @@ commands.register(app);
 (async () => {
     await app.start(process.env.PORT || 3000);
 
-    console.log('Sly is running! 🦅');
+    console.log('bot is running! 🦅');
 })();
 
